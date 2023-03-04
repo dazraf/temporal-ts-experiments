@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "worker": "npx ts-node src/worker.ts"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.1",
+    "@types/node": "^18.14.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@temporalio/activity": "^1.6.0",
+    "@temporalio/client": "^1.6.0",
+    "@temporalio/common": "^1.6.0",
+    "@temporalio/worker": "^1.6.0",
+    "@temporalio/workflow": "^1.6.0",
+    "fs-extra": "^11.1.0"
+  }
+}
